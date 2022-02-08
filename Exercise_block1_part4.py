@@ -1,7 +1,3 @@
-################################################################################
-####################### EXERCISES Laura Ciaran 192802 ##########################
-################################################################################
-
 ### Exercise 1 ###
 def FASTA_iterator(fasta_filename):
     """Generator Function that reads a Fasta file. In each iteration, returns a
