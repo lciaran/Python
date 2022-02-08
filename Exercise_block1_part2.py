@@ -1,7 +1,3 @@
-################################################################################
-####################### EXERCISES Laura Ciaran 192802 ##########################
-################################################################################
-
 ### Exercise 1 ###
 def get_proteins_ratio_by_residue_threshold (filename, residue,
 relative_threshold=0.1, absolute_threshold=10):
