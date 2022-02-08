@@ -25,8 +25,8 @@ relative_threshold=0.1, absolute_threshold=10):
                 correct_proteins += 1
         return (correct_proteins / total_proteins)
 
-results = get_proteins_ratio_by_residue_threshold ("example_fasta_file.fa", "A")
-print (results)
+#results = get_proteins_ratio_by_residue_threshold ("example_fasta_file.fa", "A")
+#print (results)
 
 ### Exercise 2 ###
 def print_sequence_summary(filename, output_filename, first_n=3, last_m=5):
@@ -59,4 +59,4 @@ def print_sequence_summary(filename, output_filename, first_n=3, last_m=5):
                 file2.write(a+":"+str(abs_freq)+",")
             file2.write("\n")
 
-print_sequence_summary("test.txt", "results.txt")
+#print_sequence_summary("test.txt", "results.txt")
