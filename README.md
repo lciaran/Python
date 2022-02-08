@@ -1,2 +1,2 @@
 # Python
-Python exercises from the Bioinformatics for Health Sciences Master of UPF
+Exercises from the Python course of the Bioinformatics for Health Sciences Master of UPF
