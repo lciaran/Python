@@ -1,7 +1,3 @@
-################################################################################
-####################### EXERCISES Laura Ciaran 192802 ##########################
-################################################################################
-
 ### Exercise 1 ###
 def calculate_aminoacid_frequencies (fasta_filename, subsequences_filename, number_of_repetitions, output_filename):
     """This function given a multi-line protein FASTA file and a “sub-sequences”
@@ -49,4 +45,4 @@ def calculate_aminoacid_frequencies (fasta_filename, subsequences_filename, numb
             proportions = "{:.4f}".format(prot[1]/num_prot)
             results_file.write(str(prot[0])+"\t"+f"{prot[1]:>10}"+"\t"+f"{proportions:>17}"+"\n")
 
-calculate_aminoacid_frequencies ("example_fasta_file.fa", "sequence_fragments.txt", 5, "results.txt")
+#calculate_aminoacid_frequencies ("example_fasta_file.fa", "sequence_fragments.txt", 5, "results.txt")
